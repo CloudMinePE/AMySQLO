@@ -11,7 +11,7 @@
   },
   "require": {
     "ext-pthreads": "*",
-    "xisrapilx/mysqlo": "^1.0.0",
+    "xisrapilx/mysqlo": "^0.1.0",
     "pocketmine/snooze": "^0.1.2"
   },
   "repositories": [
