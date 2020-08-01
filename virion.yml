@@ -1,0 +1,8 @@
+name: mysqlo
+description: Async MySQLO
+version: 0.1
+
+antigen: xisrapilx\mysqlo
+api: [3.0.0, 4.0.0]
+php: [7.3, 7.4]
+author: xISRAPILx
