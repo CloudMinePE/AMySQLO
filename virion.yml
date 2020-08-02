@@ -1,8 +1,8 @@
-name: mysqlo
+name: amysqlo
 description: Async MySQLO
 version: 0.1
 
-antigen: xisrapilx\mysqlo
+antigen: xisrapilx\amysqlo
 api: [3.0.0, 4.0.0]
 php: [7.3, 7.4]
 author: xISRAPILx
