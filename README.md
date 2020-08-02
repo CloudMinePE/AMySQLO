@@ -14,7 +14,7 @@ $async->start(
     function(int $threadId, ConnectionException $exception) : void{} //Called if thread cannot connect to mysql 
 );
 ```
-*** Query:
+**Query:**
  - MySQLO allows convenient mapping of the result to entity classes:
 ```php
 $async->query("SELECT * FROM `players` WHERE `nickname`='test' LIMIT 1")
@@ -50,7 +50,7 @@ $async->query("SELECT * FROM `players` WHERE `nickname`='test' LIMIT 1")
     })
     ->executeSelectSingle();
 ```
-*** Prepared query:
+**Prepared query:**
  - MySQLO provides basic prepared statement:
 ```php
 $async->prepare("SELECT * FROM `players` WHERE `nickname`=:nickname LIMIT :limit")
@@ -65,4 +65,4 @@ $async->prepare("SELECT * FROM `players` WHERE `nickname`=:nickname LIMIT :limit
     })
     ->executeSelectSingle();
 ```
-*** You can find all other information in the MySQLO repository
+**You can find all other information in the MySQLO repository**
