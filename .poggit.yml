@@ -8,6 +8,6 @@ projects:
     model: virion
     path: ""
     libs:
-      - src: cloudminepe/mysqlo/mysqlo
+      - src: CloudMinePE/MySQLO/mysqlo
         version: ^1.0.0
 ...
