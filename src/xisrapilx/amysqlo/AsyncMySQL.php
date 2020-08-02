@@ -85,7 +85,7 @@ class AsyncMySQL{
      * @param string $threadClass
      * @param callable $onSuccessConnection <code>function(int $threadId) : void{}</code>
      * @param callable $onConnectionError <code>function(int $threadId, ConnectionException $exception) : void{}</code>
-     * @param array $additionalParams Addtional params to thread class constructor
+     * @param array $additionalParams Additional params to thread class constructor
      */
     public function start(int $threadCount = 2, string $threadClass = NewThread::class, callable $onSuccessConnection = null, callable $onConnectionError = null, ...$additionalParams) : void{
         for($i = 0; $i < $threadCount; ++$i){
