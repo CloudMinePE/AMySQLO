@@ -2,7 +2,7 @@
  - Library for asynchronous access to MySQL. Bases on [MySQLO](https://github.com/CloudMinePE/MySQLO).
 ---
 ### Examples:
-*** Initialize connection:\
+ **Initialize connection:**
 ```php
 $async = new AsyncMySQL(
     $this->getServer()->getTickSleeper(),
